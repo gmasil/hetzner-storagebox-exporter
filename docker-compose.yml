@@ -1,0 +1,6 @@
+version: "3.0"
+
+services:
+  hetzner-storage-exporter:
+    build: .
+    image: registry.gmasil.de/docker/hetzner-storage-exporter:${TAG}
